@@ -1,6 +1,6 @@
 {
   "name": "agor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Node CLI utility to launch an iOS simulator and navigate Safari to a specified page.",
   "main": "dist/cli.js",
   "repository": "https://github.com/jamiehaywood/agor.git",
