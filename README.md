@@ -7,9 +7,9 @@ A Node CLI utility to launch an iOS simulator and navigate Safari to a specified
 ## Install
 Install globally (recommended)
 ```sh
-yarn add -G agor
+yarn global add agor
 
-npm i -G agor
+npm i -g agor
 ```
 
 ## Usage
