@@ -40,7 +40,7 @@ export async function agor(args: Agor) {
 async function startSequence(simulatorName: string, url: string) {
   try {
     await exec(`xcrun simctl boot ${simulatorName}`);
-  } finally {
+  } catch (e) {
     // the possible exception that it's already booted
     await exec(`xcrun simctl openurl ${simulatorName} ${url}`);
     await exec('open -a Simulator.app');
