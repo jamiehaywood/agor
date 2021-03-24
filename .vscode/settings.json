@@ -1,0 +1,19 @@
+{
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll": true
+  },
+  "editor.formatOnSave": false,
+  "eslint.trace.server": "verbose",
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "eslint.alwaysShowStatus": true,
+  "eslint.debug": true,
+  "eslint.packageManager": "yarn",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
